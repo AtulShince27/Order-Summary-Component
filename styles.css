@@ -1,0 +1,91 @@
+@media screen and (min-width : 375px){
+    body{
+        background-image: url(../images/pattern-background-mobile.svg);
+    }
+}
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card {
+    margin : 15% auto;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 5%;
+}
+.card .card-img-top{
+    border-radius: 5% 5% 0 0;
+}
+.card .card-title{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: hsl(223, 47%, 23%);
+}
+.card .card-text{
+    font-weight: 400;
+    color:  hsl(224, 23%, 55%);
+    margin-top: 10px;
+}
+.card .row{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+.card .row .music-icon{
+    float: left;
+    margin-right: 8px;
+    margin-left: none;
+    margin-top: 10px;
+}
+.card .row h6{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.card .row p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.card .row .col-4 p{
+    margin-top: 17.5px;
+}
+.card .row .col-4 a{
+    font-weight: 500;
+    color: hsl(255, 75%, 42%);
+}
+.card .row .col-4 a:hover{
+    color: hsl(255, 86%, 64%);
+    text-decoration: none;
+}
+.payment-button{
+    padding: 12px 32px;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 500;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 0 4.5px 7.5px 0 hsl(228, 45%, 44%);
+}
+.payment-button:hover{
+    background-color: hsl(255, 86%, 64%);
+}
+.cancel-button{
+    padding: 12px 32px;
+    background-color: white;
+    border: none;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.cancel-button:hover{
+    color: hsl(223, 47%, 23%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
